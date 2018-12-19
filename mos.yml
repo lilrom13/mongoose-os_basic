@@ -1,0 +1,20 @@
+author: Romain Margheriti
+description: Skeleton mongoose-os app for esp32
+platform: esp32
+version: 1.0
+
+libs_version: ${mos_version}
+modules_version: ${mos_version}
+mongoose_os_version: ${mos_version}
+
+sources:
+  - src
+
+tags:
+  - c
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/boards
+  - origin: https://github.com/mongoose-os-libs/core
+
+manifest_version: 2017-05-18
