@@ -15,12 +15,10 @@
  * limitations under the License.
  */
  
-#include <stdio.h>
-
 #include "mgos.h"
 
 enum mgos_app_init_result mgos_app_init(void) {
-  printf("Hello World\n");
+  LOG(LL_INFO, ("Hello World"));
 
   return MGOS_APP_INIT_SUCCESS;
 }
